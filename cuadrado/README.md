@@ -1,6 +1,8 @@
 # Translating target to source constraints in model-to-model transformations
 Jesús Sánchez Cuadrado, Esther Guerra, Juan De Lara, Robert Clarisó and Jordi Cabot
 
+(A pre-print of the paper can be downloaded [here](http://miso.es/pubs/MODELS_2017.pdf "pre-print")
+
 This paper presents a method to generate source pre-conditions from target constraints (e.g., postconditions,
 meta-model invariants). This method has many applications like ensuring strong executability of 
 a model-to-model transformation (i.e., checking if there exists a source model satifying the 
