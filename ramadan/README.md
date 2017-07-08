@@ -11,7 +11,7 @@ the CARiSMA tool.
 # Artifacts
 
 * **MODELS'17 paper (preprint version):** https://github.com/grammarware/models17/blob/master/ramadan/From%20Secure%20Business%20Process%20Modeling.pdf
-* **Artifact paper:** https://github.com/grammarware/models17/blob/master/ramadan/Artifacts-Evaluation.pdf
+* **Artifact paper:**https://github.com/grammarware/models17/blob/master/ramadan/Artifact_Evaluation_Paper.pdf
 * **Our Model Transformation Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
 
 # Usage 
