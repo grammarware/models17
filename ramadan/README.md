@@ -3,7 +3,7 @@ Qusai Ramadan, Mattia Salnitri, Daniel Strüber, Jan Jürjens and Paolo Giorgini
 
 In this file, we present the artifact submission for our paper of the same name, to
 be presented at the MoDELS conference 2017 in Austin, TX. Our submission includes
-the model transformation from SecBPMN2 to UMLsec models as well as four example
+the model transformation from SecBPMN2 to UMLsec models as well as four examples
 models from the Air Traffic Management System case study. We explain the process of
 using the transformation, and the verification of the generated UMLsec models using
 the CARiSMA tool.
@@ -25,7 +25,7 @@ can use (http://download.eclipse.org/modeling/emft/henshin/updates/release).
 ## Performing the transformation. 
 To execute the transformation from SecBPMN2 to UMLsec models, please follow the following instruction. 
 * Import our project package to your local Eclipse workspace.
-* Right click on the main class *"BpmnToUml.java"*–> As *JUnit Plug-in Test*. By default, our transformation takes as input the *example1.bpmn* file. To change the input file, first copy the name of one of the BPMN files
+* Right click on the main class *"BpmnToUml.java"*–> RUN As *JUnit Plug-in Test*. By default, our transformation takes as input the *example1.bpmn* file. To change the input file, first copy the name of one of the BPMN files
 that are provided in *myexample –> src –> my.example* directory. Second, find the following
 line of code (**public static final String EXAMPLE = "example1.bpmn";**)
 in the *BpmnToUml.java* file and replace the file name *"example1"* with the name of
