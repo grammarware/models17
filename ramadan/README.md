@@ -78,7 +78,7 @@ will be stored to the *myexample* directory.
 * Put the cursor inside the the *Value* textbox and press *enter* to save the changes. This textbox can be used to specify some attributes for the selected role. However, this not part of our work. Therefore, please leave the textbox empty.
 * Click Save and close the window. 
 
-**Hint** One should press enter in the textbox to save the changes, even there is already a *save* buttom. This because of an exisiting implementation **bug** in check.
+**Hint:** One should press enter in the textbox to save the changes, even there is already a *save* buttom. This because of an exisiting implementation **bug** in check.
 
 * From the *analysis editor* window, uncheck the last perform check (i.e., *RABACsec: Create transformation input*) and only select 
 ) *RABACsec: Use transformation input checks* check and then click *RUN*.
