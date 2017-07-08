@@ -15,7 +15,7 @@ the CARiSMA tool.
 * **Our Model Transformation Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
 
 # Usage 
-The uploaded myexample.zip file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
+The uploaded [myexample.zip](https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip) file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
 ## Prerequisite 
 We recommend using [Eclipse Neon, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/neonr), with
 an installed nightly build of [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/). These softwares plug-ins can be installed on your Eclipse (Help –>Install New Software...) from the the follwing update
