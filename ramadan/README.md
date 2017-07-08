@@ -1,6 +1,19 @@
 # From Secure Business Process Modeling to Design-Level Security Verification
 Qusai Ramadan, Mattia Salnitri, Daniel Strüber, Jan Jürjens and Paolo Giorgini
 
+In this file, we present the artifact submission for our paper of the same name, to
+be presented at the MoDELS conference 2017 in Austin, TX. Our submission includes
+the model transformation from SecBPMN2 to UMLsec models as well as four example
+models from the Air Traffic Management System case study. We explain the process of
+using the transformation, and the verification of the generated UMLsec models using
+the CARiSMA tool.
+
+# Artifacts
+
+* **MODELS'17 paper (preprint version):** https://github.com/grammarware/models17/blob/master/ramadan/From%20Secure%20Business%20Process%20Modeling.pdf
+* **Artifact paper:** https://github.com/grammarware/models17/blob/master/ramadan/Artifacts-Evaluation.pdf
+* **Our Model Transformation Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
+
 # Usage 
 The uploaded myexample.zip file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
 ## Prerequisite 
