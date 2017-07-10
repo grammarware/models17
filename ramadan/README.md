@@ -55,21 +55,21 @@ will be stored to the *myexample* directory.
 
 ## More details information about performing CARiSMA checks
 
-As a general remark
+In what follows, we walk through the three checks supported by our transformation output: «secure links» (for deployment diagrams), «secure dependency» (for class diagrams), and RABAC (for class diagrams).
 
-### First : secure links UMLsec check
+### 1. «secure links» UMLsec check
 
 **Purpose:** To check whether the communication links between physical nodes are secure or not with respect to the adversary type and the data communicated across them. To perform this check on the generated UML file from the earlier steps (i.e., Transformed_serialized_profile.uml), please mind  the following instructions: 
 
 * In the *analysis editor* window, click on the *add checks to list* icon –> select the *secure links UMLsec check* and then click *RUN*. 
 
-### Second: secure dpendency UMLsec check
+### 2. «secure dependency» UMLsec check
 
 **Purpose:** To check whether the dependencies between objects or subsystems respect the security requirements on the data  communicated across them. To perform this check on the generated UML file from the earlier steps (i.e., Transformed_serialized_profile.uml), please follow the following instructions:
 
 * From the *analysis editor* window click on the *add checks to list* icon –> select the *secure dependency UMLsec check* –> click OK and then click *RUN*. 
 
-### Third: RABAC (Role Attribute-based Access Control)
+### 3. RABAC (Role Attribute-based Access Control)
 
 **Purpose:** To check the access rights of each role and the access constraints assigned to specific operations based on predefined attributes. UMLsec  implements  the RABAC  access  control  model  via  the  policy *<<abac>>*,  which uses  two  tags  called *{role}* and *{right}* to  assign  roles  to subjects and rights to roles, respectively. Operations in need of an access restriction can be annotated with the *«abacRequire»* stereotype  along  with  its  associated *{right}* tag. 
 
@@ -100,6 +100,6 @@ As a general remark
 
 
 To generate the report text file for the generated checks, you can *right click* on the result and select *create a report for the selected analysis*. The report
-will be stored to the *myexample* directory.  In our example, the  output resut for the RABAC check  will show that the selected *Airplane* role has an access to *Notify local authority* operation. ***Please note that the output will not look very interesting/informative in the case of a passed check, which is the case for  **<<secure dependencies>>** and **<<secure links>>.***
+will be stored to the *myexample* directory.  In our example, the  output resut for the RABAC check  will show that the selected *Airplane* role has an access to *Notify local authority* operation. ***Please note that the output will not look very interesting/informative in the case of a passed check, which is the case for  **«secure dependencies»** and **«secure links».*****
 
 
