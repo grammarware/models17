@@ -44,8 +44,7 @@ in the *BpmnToUml.java* file (**public static final String EXAMPLE = "example1.b
 the selected BPMN file.
 * After running the *BpmnToUml.java* file, you should see console output informing you about
 the generation process. The process could take a few minutes, and there might be some warnings/error messages related to the underlying plug-ins. As these do not concern us, we can ignore them. The process is finished when the following line is printed to the console: *Saved result in 'example1-generated-result.uml'.*
-* The results of the transformation process (.uml file) will be stored to the *myexample*
-directory. The name of the UML file is **Transformed_serialized_profile.uml**.
+* The results of the transformation process (.uml file) will be stored to the project root directory. The name of the UML file is **Transformed_serialized_profile.uml**.
 
 ## Performing the verification. 
 
