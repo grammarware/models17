@@ -19,7 +19,7 @@ The uploaded [myexample.zip](https://github.com/grammarware/models17/blob/master
 ## Prerequisite 
 We recommend using [Eclipse Neon, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/neonr), with
 an installed nightly build of [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/). These softwares plug-ins can be installed on your Eclipse (Help →Install New Software...) from the the follwing update
-sites: http://carisma.umlsec.de/updatesite for CARiSMA, and  http://download.eclipse.org/modeling/emft/henshin/updates/release for Henshin. From the CARiSMA update site, please only install the main features (BPMN2 and UML2 support).
+sites: http://carisma.umlsec.de/updatesite for CARiSMA, and  http://download.eclipse.org/modeling/emft/henshin/updates/release for Henshin. **From the CARiSMA update site, please only install the main features (BPMN2 and UML2 support).**
 
 ## Performing the transformation. 
 To execute the transformation from SecBPMN2 to UMLsec models, please follow the following instruction. 
@@ -56,6 +56,9 @@ will be stored to the *myexample* directory.
 ## More details information about performing CARiSMA checks
 
 In what follows, we walk through the three checks supported by our transformation output: «secure links» (for deployment diagrams), «secure dependency» (for class diagrams), and RABAC (for class diagrams).
+
+**Please note that the output will not look very interesting/informative in the case of a passed check, which is the case for  **«secure dependencies»** and **«secure links».****
+
 
 ### 1. «secure links» UMLsec check
 
@@ -100,6 +103,5 @@ In what follows, we walk through the three checks supported by our transformatio
 
 
 To generate the report text file for the generated checks, you can *right click* on the result and select *create a report for the selected analysis*. The report
-will be stored to the *myexample* directory.  In our example, the  output resut for the RABAC check  will show that the selected *Airplane* role has an access to *Notify local authority* operation. ***Please note that the output will not look very interesting/informative in the case of a passed check, which is the case for  **«secure dependencies»** and **«secure links».*****
-
+will be stored to the *myexample* directory.  In our example, the  output resut for the RABAC check  will show that the selected *Airplane* role has an access to *Notify local authority* operation. 
 
