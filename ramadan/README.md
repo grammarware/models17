@@ -14,9 +14,9 @@ the CARiSMA tool.
 * **Artifact paper:** https://github.com/grammarware/models17/blob/master/ramadan/Artifact_Evaluation_Paper.pdf
 * **Artifact: Model Transformation Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
 
-# Resources
+# Artifact contents
 
-myexample.zip has the following contents:
+The Eclipse project package *myexample.zip* has the following contents:
 
 * *src/my.example* directory:
   * *Externalservices1.bpmn, Externalservices2.bpmn, Flightplan.bpmn, Landing.bpmn:* Input models from the ATM case study
