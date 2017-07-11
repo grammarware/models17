@@ -51,7 +51,7 @@ of CARiSMA. After installing CARiSMA, the manual is available under: *Help →
 Help Contents → CARiSMA*.
 * The result of the verification is provided in the *Analysis Results view*. One can also
 *right click* on the result and select *create a report for the selected analysis*. The report
-will be stored to the *myexample* directory.
+will be stored to the project root directory.
 
 ## More details information about performing CARiSMA checks
 
