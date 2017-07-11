@@ -8,11 +8,25 @@ models from the Air Traffic Management System case study. We explain the process
 using the transformation, and the verification of the generated UMLsec models using
 the CARiSMA tool.
 
-# Artifacts
+# Resources
 
 * **MODELS'17 paper (preprint version):** https://github.com/grammarware/models17/blob/master/ramadan/From%20Secure%20Business%20Process%20Modeling.pdf
 * **Artifact paper:** https://github.com/grammarware/models17/blob/master/ramadan/Artifact_Evaluation_Paper.pdf
-* **Our Model Transformation Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
+* **Artifact: Model Transformation Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
+
+# Resources
+
+myexample.zip has the following contents:
+
+* *src/my.example* directory:
+  * *Externalservices1.bpmn, Externalservices2.bpmn, Flightplan.bpmn, Landing.bpmn:* Input models from the ATM case study
+  * *example1.bpmn:* Small input model for testing purposes
+  * *\*.henshin files:* Henshin modules implementing the transformation
+  * *BpmnToUml.java:* Java class for executing the transformation via orchestration of Henshin modules
+  * *BpmnToUmlMetricsPrinter.java:* Java class for computing metric values for input and output models
+  
+* *Testing* directory: Additional test input models 
+
 
 # Usage 
 The uploaded [myexample.zip](https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip) file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
