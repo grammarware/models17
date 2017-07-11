@@ -13,7 +13,7 @@ with a model finder.
 
 ## Usage of AnATLyzer
 
-To try he target constraint analysis you need to install AnATLyzer. 
+To try the target constraint analysis you need to install AnATLyzer. 
 Here is a brief summary of how to install and use it.
 
 ### Required software
@@ -92,7 +92,7 @@ constraint is not satisfied by the transformation.
 
 * Here is a [screencast](https://www.youtube.com/watch?v=VmMiOujxk0M "screencast") showing 
 how to execute the analysis of target constraints.
-* The example used in the screencast can be downloaded [here](http://sanchezcuadrado.es/projects/anatlyzer/data/models2017/demo_class2table.zip)
+* The example used in the screencast can be downloaded [here](https://github.com/grammarware/models17/blob/master/cuadrado/demo_class2table.zip)
 
 
 ## Experimental data
