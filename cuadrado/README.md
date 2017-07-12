@@ -20,7 +20,8 @@ Here is a brief summary of how to install and use it.
 
 * Eclipse (tested on Eclipse Luna, Mars and Neon)
 * Java 8
-* ATL 3.x
+* ATL 3.x - [https://eclipse.org/atl/](https://eclipse.org/atl/)
+* Graphviz (optional) - [http://www.graphviz.org/](http://www.graphviz.org/)
 * Zest 1.5 (optional)
 * UML 2.x (optional)
 
@@ -32,6 +33,7 @@ Here is a brief summary of how to install and use it.
 * Locate the update site in the `Work with` combo box
 * Sometimes you need to uncheck the `Group items by category`
 * Check the features that you want to install and click `Finish`
+* If you don't have ATL installed use its update site to install it: [http://download.eclipse.org/mmt/atl/updates/releases/](http://download.eclipse.org/mmt/atl/updates/releases/)
 
 ### Setting up a transformation
 
@@ -92,7 +94,7 @@ constraint is not satisfied by the transformation.
 
 * Here is a [screencast](https://www.youtube.com/watch?v=VmMiOujxk0M "screencast") showing 
 how to execute the analysis of target constraints.
-* The example used in the screencast can be downloaded [here](https://github.com/grammarware/models17/blob/master/cuadrado/demo_class2table.zip)
+* The example ATL project used in the screencast can be downloaded [here](https://github.com/grammarware/models17/blob/master/cuadrado/demo_class2table.zip)
 
 
 ## Experimental data
