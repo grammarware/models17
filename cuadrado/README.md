@@ -126,6 +126,7 @@ To reproduce the experiment follow these steps:
 * You need to import the [experiment script](http://sanchezcuadrado.es/projects/anatlyzer/data/models2017/pos2pre.evaluation.zip "Script") into Eclipse (it is just an Eclipse project with a (Java) script to run the experiment.
 * Run a new Eclipse instance. 
 * Import the project with the [seed transformations](http://sanchezcuadrado.es/projects/anatlyzer/data/models2017/evaluation_project.zip "Seed transformations").
+* **Important:** You must import the project with the seed transformations directly from the zip file using "Import -> Existing projects in to workspace -> Select archive file". This is because the evaluation script assumes that the project directory is located within the workspace.
 * The experiment must be run independently for each transformation. Right-click on the ATL transformation to evaluate -> EVALUATE pre-conditions -> Evaluate pre-conditions (advance 1-by-1) with Witness Finder. 
 * It is important that the transformation file has been opened and AnATLyzer has been run (check that you have some items in the Analysis view). 
 * A dialog will allow you to decide which mutants to use. For the paper we used all mutants and object scope = 2. But if you want just a quick test you can select only a couple of mutants.
