@@ -1,7 +1,7 @@
 # Translating target to source constraints in model-to-model transformations
 Jesús Sánchez Cuadrado, Esther Guerra, Juan De Lara, Robert Clarisó and Jordi Cabot
 
-(A pre-print of the paper can be downloaded [here](http://miso.es/pubs/MODELS_2017.pdf "pre-print")
+(A pre-print of the paper can be downloaded [here](http://miso.es/pubs/MODELS_2017.pdf "pre-print"))
 
 This paper presents a method to generate source pre-conditions from target constraints (e.g., postconditions,
 meta-model invariants). This method has many applications like ensuring strong executability of 
@@ -10,6 +10,18 @@ transformation pre-conditions which could violate a target constraint), characte
 
 The method has been implemented for ATL and integrated into [AnATLyzer](http://sanchezcuadrado.es/projects/anatlyzer "AnATLyzer"), an static analysis tool for ATL. In particular, the generation of pre-conditions has been integrated
 with a model finder.
+
+## Artifact description
+
+The presented artifact consists of the following elements:
+
+* The raw data obtained during evaluation of the pre-condition generation method ([here](#experiment)) 
+* An script which allow to reproduce the evaluation from scratch ([here](#experiment))  
+* The implementation of the method as integrated in AnATLyzer. 
+
+The next part of the artifact description shows how AnATLyzer can be installed and used. This includes
+the integration of the pre-condition generation with a model finder, which is just one
+of the applications of the method. 
 
 ## Usage of AnATLyzer
 
@@ -97,7 +109,7 @@ how to execute the analysis of target constraints.
 * The example ATL project used in the screencast can be downloaded [here](https://github.com/grammarware/models17/blob/master/cuadrado/demo_class2table.zip)
 
 
-## Experimental data
+## <a name="experiment"></a>Experimental data
 
 To evaluate our method to generate pre-conditions from target constraints we have followed
 the following procedure:
