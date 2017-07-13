@@ -35,7 +35,7 @@ The Eclipse project package *myexample.zip* has the following contents:
 The uploaded [myexample.zip](https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip) file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
 ## Prerequisite 
 We recommend using [Eclipse Neon, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/neonr), with
-an installed nightly build of [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/). These plug-ins can be installed either using  online update sites, or the mirrored update sites provided as part of the artifact. 
+installed [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/) plug-ins. These plug-ins can be installed either using  online update sites, or the mirrored update sites provided as part of the artifact. 
 **From the CARiSMA update site, please only install the main features (BPMN2 and UML2 support).**
 
 * **Installation from online update sites**: In Eclipse, do *Help → Install New Software...*. Use the following online update
