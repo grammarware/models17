@@ -13,8 +13,8 @@ the CARiSMA tool.
 * **MODELS'17 paper (preprint version):** https://github.com/grammarware/models17/blob/master/ramadan/From%20Secure%20Business%20Process%20Modeling.pdf
 * **Artifact paper:** https://github.com/grammarware/models17/blob/master/ramadan/Artifact_Evaluation_Paper.pdf
 * **Artifact: Model Transformation Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
-* ** A mirror of the CARiSMA update site:** https://github.com/grammarware/models17/blob/master/ramadan/CARiSMA.zip
-* ** A mirror of the Henshin update site:** https://github.com/grammarware/models17/blob/master/ramadan/org.eclipse.emf.henshin.sdk_1.5.0.zip
+* **A mirror of the CARiSMA update site:** https://github.com/grammarware/models17/blob/master/ramadan/CARiSMA.zip
+* **A mirror of the Henshin update site:** https://github.com/grammarware/models17/blob/master/ramadan/org.eclipse.emf.henshin.sdk_1.5.0.zip
 
 # Artifact contents
 
