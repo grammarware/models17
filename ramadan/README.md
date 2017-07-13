@@ -101,7 +101,7 @@ In what follows, we walk through the three checks supported by our transformatio
 
 * Right click on the generated UML file from the last step (i.e., Transformed_serialized_profile.uml) → open with → UML Model Editor.
 * Click on platform:/resource/myexample/Transformed_serialized_profile.uml → open the model → select the *RABAC* class. 
-* In the *propertie*s view, assign a value to the *"right"* property. The value should have the following format: **{(role_name,right)}**. For instance, *{(Airplane, Modify_Flight plan)}*,  means that the Airplan has the right to modify a flight plan data. Multiple rights can be given to the same role as follows: *{(Airplane, Modify_Flight planRead_Flight plan)}*. This means that the Ai plane has the right to both read and modify the flight plan. In what follows, we will assume that   *{(Airplane, Modify_Flight planRead_Flight plan)}* is the specified as a value for the *"right"* property.
+* In the *propertie*s view, assign a value to the *"right"* property. The value should have the following format: **{(role_name,right)}**. For instance, *{(Airplane,Modify_Flight plan)}*,  means that the Airplan has the right to modify a flight plan data. Multiple rights can be given to the same role as follows: *{(Airplane,Modify_Flight planRead_Flight plan)}*. This means that the Ai plane has the right to both read and modify the flight plan. In what follows, we will assume that   *{(Airplane,Modify_Flight planRead_Flight plan)}* is the specified as a value for the *"right"* property.
 
 * Save the changes you made on the models.
 ** perform RABAC checks:** To perform this check on the generated UML file (i.e., Transformed_serialized_profile.uml) from the last steps, please mind the following instructions:
