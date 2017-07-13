@@ -35,12 +35,14 @@ The Eclipse project package *myexample.zip* has the following contents:
 The uploaded [myexample.zip](https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip) file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
 ## Prerequisite 
 We recommend using [Eclipse Neon, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/neonr), with
-an installed nightly build of [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/). These softwares plug-ins can be installed on your Eclipse using two options: 
+an installed nightly build of [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/). These plug-ins can be installed either using  online update sites, or the mirrored update sites provided as part of the artifact. 
+**From the CARiSMA update site, please only install the main features (BPMN2 and UML2 support).**
 
-* **First option**: (Help →Install New Software...) from the the follwing update
-sites: http://carisma.umlsec.de/updatesite for CARiSMA, and  http://download.eclipse.org/modeling/emft/henshin/updates/release for Henshin. **From the CARiSMA update site, please only install the main features (BPMN2 and UML2 support).**
+* **Installation from online update sites**: In Eclipse, do *Help → Install New Software...*. Use the following online update
+sites: http://carisma.umlsec.de/updatesite for CARiSMA, and  http://download.eclipse.org/modeling/emft/henshin/updates/release for Henshin. 
 
-* **Second option:** From the uploaded files (i.e. CARiSMA.zip and org.eclipse.emf.henshin.sdk_1.5.0.zip) as follows: download the these files to your computer → from you Eclipse (Help →Install New Software...→ ADD → Archive) → then select the coressponding file to the software plugin you want ot install. **From the CARiSMA update file, please only install the main features (BPMN2 and UML2 support).**
+* **Installation from mirrors**: Download the mirrored update sites (i.e. CARiSMA.zip and org.eclipse.emf.henshin.sdk_1.5.0.zip) to your computer → install both of them in Eclipse, using *Help → Install New Software... → Add → Archive*.
+
 
 ## Performing the transformation. 
 To execute the transformation from SecBPMN2 to UMLsec models, please follow the following instruction. 
