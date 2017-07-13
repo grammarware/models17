@@ -13,6 +13,8 @@ the CARiSMA tool.
 * **MODELS'17 paper (preprint version):** https://github.com/grammarware/models17/blob/master/ramadan/From%20Secure%20Business%20Process%20Modeling.pdf
 * **Artifact paper:** https://github.com/grammarware/models17/blob/master/ramadan/Artifact_Evaluation_Paper.pdf
 * **Artifact: Model Transformation Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
+* ** A mirror of the CARiSMA update site:** https://github.com/grammarware/models17/blob/master/ramadan/CARiSMA.zip
+* ** A mirror of the Henshin update site:** https://github.com/grammarware/models17/blob/master/ramadan/org.eclipse.emf.henshin.sdk_1.5.0.zip
 
 # Artifact contents
 
@@ -28,12 +30,17 @@ The Eclipse project package *myexample.zip* has the following contents:
 * *Testing* directory: Additional test input models 
 
 
+
 # Usage 
 The uploaded [myexample.zip](https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip) file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
 ## Prerequisite 
 We recommend using [Eclipse Neon, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/neonr), with
-an installed nightly build of [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/). These softwares plug-ins can be installed on your Eclipse (Help →Install New Software...) from the the follwing update
+an installed nightly build of [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/). These softwares plug-ins can be installed on your Eclipse using two options: 
+
+* **First option**: (Help →Install New Software...) from the the follwing update
 sites: http://carisma.umlsec.de/updatesite for CARiSMA, and  http://download.eclipse.org/modeling/emft/henshin/updates/release for Henshin. **From the CARiSMA update site, please only install the main features (BPMN2 and UML2 support).**
+
+* **Second option:** From the uploaded files (i.e. CARiSMA.zip and org.eclipse.emf.henshin.sdk_1.5.0.zip) as follows: download the these files to your computer → from you Eclipse (Help →Install New Software...→ ADD → Archive) → then select the coressponding file to the software plugin you want ot install. **From the CARiSMA update file, please only install the main features (BPMN2 and UML2 support).**
 
 ## Performing the transformation. 
 To execute the transformation from SecBPMN2 to UMLsec models, please follow the following instruction. 
@@ -70,8 +77,6 @@ will be stored to the project root directory.
 
 In what follows, we walk through the three checks supported by our transformation output: «secure links» (for deployment diagrams), «secure dependency» (for class diagrams), and RABAC (for class diagrams).
 
-**Please note that the output will not look very interesting/informative in the case of a passed check, which is the case for  **«secure dependencies»** and **«secure links».****
-
 
 ### 1. «secure links» UMLsec check
 
@@ -84,6 +89,7 @@ In what follows, we walk through the three checks supported by our transformatio
 **Purpose:** To check whether the dependencies between objects or subsystems respect the security requirements on the data  communicated across them. To perform this check on the generated UML file from the earlier steps (i.e., Transformed_serialized_profile.uml), please follow the following instructions:
 
 * From the *analysis editor* window click on the *add checks to list* icon → select the *secure dependency UMLsec check* → click OK and then click *RUN*. 
+
 
 ### 3. RABAC (Role Attribute-based Access Control)
 
