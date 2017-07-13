@@ -124,5 +124,5 @@ In what follows, we walk through the three checks supported by our transformatio
 
 
 To generate the report text file for the generated checks, you can *right click* on the result and select *create a report for the selected analysis*. The report
-will be stored to the *myexample* directory.  In our example, the  output resut for the RABAC check  will show that the selected *Airplane* role has an access to *Notify local authority* operation. 
+will be stored to the *myexample* directory.  In our example, the  output resut for the RABAC check  will show that the selected *Airplane* role has access to *Notify local authority* operation. 
 
