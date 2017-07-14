@@ -15,6 +15,7 @@ the CARiSMA tool.
 * **Artifact: Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
 * **Artifact: A mirror of the CARiSMA update site:** https://github.com/grammarware/models17/blob/master/ramadan/CARiSMA.zip
 * **Artifact: A mirror of the Henshin update site:** https://github.com/grammarware/models17/blob/master/ramadan/org.eclipse.emf.henshin.sdk_1.5.0.zip
+* **Artifact: Air Traffic Management Case Study SecBPMN2 models:** https://github.com/grammarware/models17/blob/master/ramadan/projects.exp
 
 # Artifact contents
 
@@ -50,7 +51,7 @@ To execute the transformation from SecBPMN2 to UMLsec models, please follow the 
 * Right click on the main class *"src/my.example/BpmnToUml.java"* → *Run As JUnit Plug-in Test*. By default, our transformation takes as input the *example1.bpmn* file. To change the input file, first copy the name of one of the BPMN files
 that are provided in *myexample → src → my.example* directory. Second, find line 91
 in the *BpmnToUml.java* file (**public static final String EXAMPLE = "example1.bpmn";**)  and replace the file name *"example1"* with the name of
-the selected BPMN file.
+the selected BPMN file. ** Please note that you cannot directly view or modify these bpmn models from you Eclipse. For viewing and modifying the bpmn models please look into the last section of this README file *viewing and modifying the SecBPMN2 models* **
 * After running the *BpmnToUml.java* file, you should see console output informing you about
 the generation process. The process could take a few minutes, and there might be some warnings/error messages related to the underlying plug-ins. As these do not concern us, we can ignore them. The process is finished when the following line is printed to the console: *Saved result in 'example1-generated-result.uml'.*
 * The results of the transformation process (.uml file) will be stored to the project root directory. The name of the UML file is **Transformed_serialized_profile.uml**.
@@ -101,7 +102,7 @@ In what follows, we walk through the three checks supported by our transformatio
 
 * Right click on the generated UML file from the last step (i.e., Transformed_serialized_profile.uml) → open with → UML Model Editor.
 * Click on platform:/resource/myexample/Transformed_serialized_profile.uml → open the model → select the *RABAC* class. 
-* In the *propertie*s view, assign a value to the *"right"* property. The value should have the following format: **{(role_name,right)}**. For instance, *{(Airplane,Modify_Flight plan)}*,  means that the Airplan has the right to modify a flight plan data. Multiple rights can be given to the same role as follows: *{(Airplane,Modify_Flight planRead_Flight plan)}*. This means that the Ai plane has the right to both read and modify the flight plan. In what follows, we will assume that   *{(Airplane,Modify_Flight planRead_Flight plan)}* is the specified as a value for the *"right"* property.
+* In the *propertie*s view, assign a value to the *"right"* property. The value should have the following format: **{(role_name,right)}**. For instance, *{(Airplane,Modify_Flight plan)}*,  means that the Airplan has the right to modify a flight plan data. Multiple rights can be given to the same role as follows: *{(Airplane,Modify_Flight planRead_Flight plan)}*. This means that the Ai plane has the right to both read and modify the flight plan. In what follows, we will assume that   *{(Airplane,Modify_Flight planRead_Flight plan)}* is the specified as a value for the *"right"* property. ** Please a void whitespaces in your entries, otherwise a matching cannot be found and the check will fail**.
 
 * Save the changes you made on the models.
 ** perform RABAC checks:** To perform this check on the generated UML file (i.e., Transformed_serialized_profile.uml) from the last steps, please mind the following instructions:
@@ -126,3 +127,14 @@ In what follows, we walk through the three checks supported by our transformatio
 To generate the report text file for the generated checks, you can *right click* on the result and select *create a report for the selected analysis*. The report
 will be stored to the *myexample* directory.  In our example, the  output resut for the RABAC check  will show that the selected *Airplane* role has access to *Notify local authority* operation. 
 
+## Viewing and Modifying the SecBPMN2 Models. 
+The bpmn models that are provided in *my.example* directory represnts a SecBPMN2 models for our *Air Traffic Management System* case study. Please note that you can not open or modify these models directly from your Eclipse. These models are designed by using the [Socio-Technical-System (STS) tool](https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip). To view and modify these bpmn models please follow the instructions:
+* Install the STS tools from (http://www.sts-tool.eu/).
+* Download the *projects.exp* file from (https://github.com/grammarware/models17/blob/master/ramadan/projects.exp) to your desktop. This file is automatically generated from the STS tool and it contains all the SecBPMN2 models of our case study. 
+* To view and modify the models in this file you need to import it into the STS:
+   * In the STS tool, do *File→ Import → project → next → select the "projects.exp" file from your desktop. 
+
+* In case you want to insert a new designed SecBPMN2 model or a modefied version of the provied SecBPMN2 models into our transformations approach, please:
+   * First, from the workspace of the STS tool please finde the SecBPMN2 model file that you want to transform. 
+   * Second, simply copy and paste the file into the *my.example* directory. 
+   * Third, since our approach take an inpt a (.bpmn) files, please right click on the inserted file  → rename → change the file   extension to bpmn.
