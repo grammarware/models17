@@ -18,6 +18,7 @@ The presented artifact consists of the following elements:
 * The raw data obtained during evaluation of the pre-condition generation method ([here](#experiment)) 
 * An script which allow to reproduce the evaluation from scratch ([here](#experiment))  
 * The implementation of the method as integrated in AnATLyzer. 
+* The set of files plus a VM with an Eclipse configured with the source code and the required execution scripts is available [here]("https://figshare.com/articles/cuadrado_models17_zip/5211892")
 
 The next part of the artifact description shows how AnATLyzer can be installed and used. This includes
 the integration of the pre-condition generation with a model finder, which is just one
