@@ -8,6 +8,10 @@ On top of the *Revisitor* pattern, we introduce *ALE*, a high-level language for
 
 *ALE* is tightly integrated with the [Eclipse Modeling Framework](https://www.eclipse.org/modeling/emf/) (EMF) and relies on the Ecore meta-language for the definition of the abstract syntax of DSLs. Operational semantics is defined with *ALE* using an open-class-like mechanism. *ALE* is bundled a set of Eclipse plug-ins.
 
+## Documentation
+
+A 2 pages document describing the submited artifacts if available: \[[link 1](./revisitor-artifacts.pdf)\] \[[link 2](http://gemoc.org/ale/revisitors/revisitor-artifacts.pdf)\]
+
 ## Artifacts
 - MODELS'17 paper: http://gemoc.org/ale/revisitors/paper.pdf
 - ALE Compiler: https://github.com/manuelleduc/ale-compiler/
