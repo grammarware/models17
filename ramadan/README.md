@@ -10,7 +10,7 @@ the CARiSMA tool.
 
 # Resources
 
-* **MODELS'17 paper (preprint version):** https://github.com/grammarware/models17/blob/master/ramadan/From%20Secure%20Business%20Process%20Modeling.pdf
+* **MODELS'17 paper (preprint version):** https://github.com/grammarware/models17/blob/master/ramadan/models.pdf
 * **Artifact paper:** https://github.com/grammarware/models17/blob/master/ramadan/Artifact_Evaluation_Paper.pdf
 * **Artifact: Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
 * **Artifact: A mirror of the CARiSMA update site:** https://github.com/grammarware/models17/blob/master/ramadan/CARiSMA.zip
