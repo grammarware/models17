@@ -53,8 +53,8 @@ that are provided in *myexample → src → my.example* directory. Second, find 
 in the *BpmnToUml.java* file (**public static final String EXAMPLE = "example1.bpmn";**)  and replace the file name *"example1"* with the name of
 the selected BPMN file. ** Please note that you cannot directly view or modify these bpmn models from you Eclipse. For viewing and modifying the bpmn models please look into the last section of this README file *viewing and modifying the SecBPMN2 models* **
 * After running the *BpmnToUml.java* file, you should see console output informing you about
-the generation process. The process could take a few minutes, and there might be some warnings/error messages related to the underlying plug-ins. As these do not concern us, we can ignore them. The process is finished when the following line is printed to the console: *Saved result in 'example1-generated-result.uml'.* The name of the .uml file in this line depends on the name of the selected .bpmn  file as input to our transformation.
-* The results of the transformation process is a UMLsec model  which will be stored to the *myexample/src/my.example* directory. The name of the UMLsec models is **example1-generated-result.uml**. Again, the UMLsec models name depends on the name of the selected .bpmn file as input to our transformation.
+the generation process. The process could take a few minutes, and there might be some warnings/error messages related to the underlying plug-ins. As these do not concern us, we can ignore them. The process is finished when the following line is printed to the console: *Saved result in 'example1-generated-result.uml'.* The name of the .uml file in this line is  the name of the selected .bpmn  file as input to our transformation folowed by *-generated-result.uml*.
+* The results of the transformation process is a UMLsec model  which will be stored to the *myexample/src/my.example* directory. The name of the UMLsec models is **example1-generated-result.uml**. Again, the name of the UMLsec models is the name of the selected .bpmn file as input to our transformation followed by *-generated-result.uml*.
 
 ## Performing the verification. 
 
