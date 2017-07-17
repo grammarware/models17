@@ -13,6 +13,8 @@ On top of the *Revisitor* pattern, we introduce *ALE*, a high-level language for
 - ALE Compiler: https://github.com/manuelleduc/ale-compiler/
 - ALE Examples & Benchmarks: https://github.com/manuelleduc/ale-compiler-benchmarks/
 
+**Redmodd**: http://www.remodd.org/v1/content/ale-compiler-and-benchmarks
+
 ## Instructions
 The repositories mentioned above contain the appropriate installation and usage instructions:
 
