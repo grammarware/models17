@@ -142,7 +142,7 @@ The bpmn models that are provided in *my.example* directory represnts a SecBPMN2
    * Second, simply copy and paste the file into the *my.example* directory. 
    * Third, since our approach take an inpt a (.bpmn) files, please right click on the inserted file  → rename → change the file   extension to bpmn.
    
-## Viewing and Modifying the SecBPMN2 Models. 
+## Viewing the generated UMLsec model. 
 To create a Papyrus UML diagram initialized with the contents of a given .uml model file (e.g., example1-generated-result.uml), please follwo the below instructions:
 * create a new Papyrus model by right-clicking the UML model (e.g., example1-generated-result.uml)  → New → Other → select Papyrus Model → Select UML  → save the model to the root directory of our project (i.e., myexample) → Finish. 
 * From the Repair Streotypes and some profiles have changed pop-up windows press OK. After that, the .di and .notation files are created. By following the previous instructions, the required files to work with the UML model in Papyrus can be initialized. 
