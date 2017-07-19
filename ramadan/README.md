@@ -16,7 +16,7 @@ the CARiSMA tool.
 * **Artifact: A mirror of the CARiSMA update site:** https://github.com/grammarware/models17/blob/master/ramadan/CARiSMA.zip
 * **Artifact: A mirror of the Henshin update site:** https://github.com/grammarware/models17/blob/master/ramadan/org.eclipse.emf.henshin.sdk_1.5.0.zip
 * **Artifact: Air Traffic Management Case Study SecBPMN2 models:** https://github.com/grammarware/models17/blob/master/ramadan/projects.exp
-* **Artifact: Mirrors of the the STS-tool current versions:** https://figshare.com/articles/Mirrors_files_for_the_current_versions_of_the_STS_tool/5220640
+* **Artifact: Mirrors of the STS-tool current versions:** https://figshare.com/articles/Mirrors_files_for_the_current_versions_of_the_STS_tool/5220640
 
 # Artifact contents
 
