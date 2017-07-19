@@ -10,12 +10,12 @@ the CARiSMA tool.
 
 # Resources
 
-* **MODELS'17 paper (preprint version):** https://github.com/grammarware/models17/blob/master/ramadan/models.pdf
-* **Artifact paper:** https://github.com/grammarware/models17/blob/master/ramadan/Artifact_Evaluation_Paper.pdf
-* **Artifact: Project package:** https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip
-* **Artifact: A mirror of the CARiSMA update site:** https://github.com/grammarware/models17/blob/master/ramadan/CARiSMA.zip
-* **Artifact: A mirror of the Henshin update site:** https://github.com/grammarware/models17/blob/master/ramadan/org.eclipse.emf.henshin.sdk_1.5.0.zip
-* **Artifact: Air Traffic Management Case Study SecBPMN2 models:** https://github.com/grammarware/models17/blob/master/ramadan/projects.exp
+* **MODELS'17 paper (preprint version):** https://figshare.com/account/projects/23464/articles/5223907
+* **Artifact paper:** https://figshare.com/account/projects/23464/articles/5223925
+* **Artifact: Project package:** https://figshare.com/account/projects/23464/articles/5223919
+* **Artifact: A mirror of the CARiSMA update site:** https://figshare.com/account/projects/23464/articles/5223910
+* **Artifact: A mirror of the Henshin update site:** https://figshare.com/articles/Henshin/5223916
+* **Artifact: Air Traffic Management Case Study SecBPMN2 models:** https://figshare.com/account/projects/23464/articles/5223928
 * **Artifact: Mirrors of the STS-tool current versions:** https://figshare.com/articles/Mirrors_files_for_the_current_versions_of_the_STS_tool/5220640
 
 # Artifact contents
@@ -34,7 +34,7 @@ The Eclipse project package *myexample.zip* has the following contents:
 
 
 # Usage 
-The uploaded [myexample.zip](https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip) file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
+The uploaded [myexample.zip](https://figshare.com/account/projects/23464/articles/5223919) file includes all the required artifacts for transforming SecBPMN2 to UMLsec models.
 ## Prerequisite 
 We recommend using [Eclipse Neon, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/neonr), with
 installed [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse.uni-koblenz.de/carisma/) plug-ins. These plug-ins can be installed either using  online update sites, or the mirrored update sites provided as part of the artifact. 
@@ -43,7 +43,7 @@ installed [Henshin](https://www.eclipse.org/henshin/) and [CARiSMA](https://rgse
 * **Installation from online update sites**: In Eclipse, do *Help → Install New Software...*. Use the following online update
 sites: http://carisma.umlsec.de/updatesite for CARiSMA, and  http://download.eclipse.org/modeling/emft/henshin/updates/release for Henshin. 
 
-* **Installation from mirrors**: Download the mirrored update sites (i.e. CARiSMA.zip and org.eclipse.emf.henshin.sdk_1.5.0.zip) to your computer → install both of them in Eclipse, using *Help → Install New Software... → Add → Archive*.
+* **Installation from mirrors**: Download the mirrored update sites (i.e. [CARiSMA.zip](https://figshare.com/account/projects/23464/articles/5223910) and [org.eclipse.emf.henshin.sdk_1.5.0.zip](https://figshare.com/articles/Henshin/5223916)) to your computer → install both of them in Eclipse, using *Help → Install New Software... → Add → Archive*.
 
 
 ## Performing the transformation. 
@@ -136,9 +136,9 @@ To generate the report text file for the generated checks, you can *right click*
 will be stored to the *myexample/src/my.example* directory.  In our example, the  output resut for the RABAC check  will show that the selected *Airplane* role has access to *Notify local authority* operation. 
 
 ## Viewing and Modifying the SecBPMN2 Models. 
-The bpmn models that are provided in *my.example* directory represnts a SecBPMN2 models for our *Air Traffic Management System* case study. Please note that you can not open or modify these models directly from your Eclipse. These models are designed by using the [Socio-Technical-System (STS) tool](https://github.com/grammarware/models17/blob/master/ramadan/myexample.zip). To view and modify these bpmn models please follow the instructions:
+The bpmn models that are provided in *my.example* directory represnts a SecBPMN2 models for our *Air Traffic Management System* case study. Please note that you can not open or modify these models directly from your Eclipse. These models are designed by using the [Socio-Technical-System (STS) tool](https://figshare.com/articles/Mirrors_files_for_the_current_versions_of_the_STS_tool/5220640). To view and modify these bpmn models please follow the instructions:
 * Install the STS tools from (http://www.sts-tool.eu/) or from the mirrored files of the current STS-version provided as part of the artifacts (available from [here](https://figshare.com/articles/Mirrors_files_for_the_current_versions_of_the_STS_tool/5220640)).
-* Download the *projects.exp* file from (https://github.com/grammarware/models17/blob/master/ramadan/projects.exp) to your desktop. This file is automatically generated from the STS tool and it contains all the SecBPMN2 models of our case study. 
+* Download the *projects.exp* file from (https://figshare.com/account/projects/23464/articles/5223928) to your desktop. This file is automatically generated from the STS tool and it contains all the SecBPMN2 models of our case study. 
 * To view and modify the models in this file you need to import it into the STS:
    * In the STS tool, do *File→ Import → project → next → select the "projects.exp" file from your desktop. 
 
